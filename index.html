@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple JavaScript Demo</h1>
+    
+    <div class="section">
+        <h2>Part 1: Variables & Conditionals</h2>
+        <button onclick="checkNumber()">Check Number</button>
+        <div class="output" id="output1">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 2: Functions</h2>
+        <button onclick="sayHello()">Say Hello</button>
+        <button onclick="calculateArea()">Calculate Area</button>
+        <div class="output" id="output2">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 3: Loops</h2>
+        <button onclick="showCountdown()">Countdown</button>
+        <button onclick="showFruits()">List Fruits</button>
+        <div class="output" id="output3">Result will appear here</div>
+    </div>
+    
+    <div class="section">
+        <h2>Part 4: DOM Interactions</h2>
+        <button onclick="changeBackground()">Change Background</button>
+        <button onclick="addListItem()">Add List Item</button>
+        <button onclick="updateText()">Update Header</button>
+        <div class="output">
+            <h3 id="header">Original Header</h3>
+            <ul id="myList">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
